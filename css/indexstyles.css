@@ -11,67 +11,9 @@ body {
     padding: 20px;
 }
 
-/* Стили шапки */
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-header a.logo {
-    font-size: 32px;
-    font-weight: bold;
-    color: #ffffff;
-    text-decoration: none;
-}
-
-h1 {
-    margin: 0;
-}
-
-nav {
-    background-color: #555;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-/* Стили строки поиска */
-.search {
-    margin-top: 10px;
-    text-align: center;
-}
-
-.search input[type="text"] {
-    padding: 8px 10px;
-    width: 200px;
-    border: none;
-    border-radius: 4px;
-    margin-right: 5px;
-}
-
-.search button[type="submit"] {
-    padding: 8px 15px;
-    background-color: #f39c12;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.search button[type="submit"]:hover {
-    background-color: #e67e22;
-}
 
 /* Стили раздела "hero" */
-.hero {
+.greetings {
     background-image: url('/pic/indexlogobackground.png');
     background-size: cover;
     background-position: center;
@@ -80,13 +22,13 @@ nav a {
     color: #fff;
 }
 
-.hero h1 {
+.greetings h1 {
     font-size: 36px;
     margin-bottom: 20px;
     color: #ffffff;
 }
 
-.hero p {
+.greetings p {
     font-size: 18px;
     margin-bottom: 30px;
     color: #ffffff;
@@ -106,30 +48,46 @@ nav a {
     background-color: #e67e22;
 }
 
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 900px;
+    height: auto;
+}
+
 /* Стили раздела "featured-products" */
 .featured-products {
     margin-top: 50px;
+    margin-left: 1%;
+    width: 50%;
+
 }
 
 .featured-products h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 28px;
+    margin-bottom: 24px;
 }
 
 .product {
     display: inline-block;
     width: 200px;
-    margin-right: 20px;
+    margin-right: 33px;
 }
 
 .product img {
-    width: 100%;
+    width: 220px;
     height: auto;
     margin-bottom: 10px;
 }
 
 .product h3 {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 5px;
 }
 
@@ -138,10 +96,4 @@ nav a {
     color: #888;
 }
 
-/* Стили подвала */
-footer {
-    background-color: #f5f5f5;
-    color: #333;
-    padding: 10px;
-    text-align: center;
-}
+
