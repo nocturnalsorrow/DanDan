@@ -26,7 +26,7 @@
     <h2>Figures</h2>
         <div class="figure-card">
             <img src="/pic/narutofigure.png" alt="Figure 1">
-            <a href="product.html">Naruto</a>
+            <a href="product.php">Naruto</a>
             <p>Price: $29.99</p>
             <button>Add to Cart</button>
     </div>

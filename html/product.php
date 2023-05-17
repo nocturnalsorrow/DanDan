@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Название товара - Мой интернет-магазин</title>
@@ -11,7 +11,7 @@
     <nav>
         <ul class="menu">
 
-            <a href="figures.html">Фігурки</a>
+            <a href="figures.php">Фігурки</a>
             <a href="#">Манга</a>
             <a href="#">Одяг</a>
             <a href="#">Аксесуари</a>
@@ -32,7 +32,7 @@
 </main>
 
 <footer>
-    <p>&copy; 2023 DanDan Store. Все права защищены.</p>
+    <p>&copy; 2023 DanDan Store. Всі права захищені.</p>
 </footer>
 </body>
 </html>

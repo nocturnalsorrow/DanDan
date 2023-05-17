@@ -9,10 +9,10 @@
 </head>
 <body>
 <header>
-    <a href="index.html" class="logo">DanDan</a>
+    <a href="index.php" class="logo">DanDan</a>
     <nav>
         <ul class="menu">
-            <a href="html/figures.html">Фігурки</a></li>
+            <a href="html/figures.php">Фігурки</a>
             <a href="#">Манга</a>
             <a href="#">Одяг</a>
             <a href="#">Аксесуари</a>
